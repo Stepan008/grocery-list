@@ -1,0 +1,36 @@
+
+.grocery-list-item {
+    align-items: center;
+    display: flex;
+    margin: 15px 0;
+}
+
+.grocery-list-item .item-cover {
+    flex-shrink: 0;
+    width: 140px;
+    margin-right: 30px;
+}
+
+.grocery-list-item .item-cover img {
+    max-width: 100%;
+}
+
+.grocery-list-item .grocery-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: flex-start;
+}
+
+.grocery-list-item .grocery-details .item-prop {
+    font-size: 1.4rem;
+}
+.grocery-list-item .grocery-details .grocery-name {
+    font-size: 2rem;
+}
+.delete-product-btn{
+    height: 50px;
+    background-color: red;
+    margin-left: auto;
+}
